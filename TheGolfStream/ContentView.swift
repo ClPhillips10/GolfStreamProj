@@ -65,7 +65,7 @@ struct ContentView: View {
                     
                     
                     .sheet(isPresented: $showingLoginScreen) {
-                        Text("Welcome")
+                        Text("Welcome \(UserName)")
                     }
                     Button("New User"){
                         
