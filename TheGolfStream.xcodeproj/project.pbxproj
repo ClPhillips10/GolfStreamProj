@@ -14,6 +14,8 @@
 		BAC1DA4A2A4F1D6E000FD29D /* TheGolfStreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC1DA492A4F1D6E000FD29D /* TheGolfStreamTests.swift */; };
 		BAC1DA542A4F1D6E000FD29D /* TheGolfStreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC1DA532A4F1D6E000FD29D /* TheGolfStreamUITests.swift */; };
 		BAC1DA562A4F1D6E000FD29D /* TheGolfStreamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC1DA552A4F1D6E000FD29D /* TheGolfStreamUITestsLaunchTests.swift */; };
+		BAC494862A5628CE0030E615 /* WebRTC-iOS in Resources */ = {isa = PBXBuildFile; fileRef = BAC494852A5628CD0030E615 /* WebRTC-iOS */; };
+		BAC494882A5628FB0030E615 /* Swift in Resources */ = {isa = PBXBuildFile; fileRef = BAC494872A5628FB0030E615 /* Swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		BAC1DA4F2A4F1D6E000FD29D /* TheGolfStreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheGolfStreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC1DA532A4F1D6E000FD29D /* TheGolfStreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheGolfStreamUITests.swift; sourceTree = "<group>"; };
 		BAC1DA552A4F1D6E000FD29D /* TheGolfStreamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheGolfStreamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BAC494852A5628CD0030E615 /* WebRTC-iOS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "WebRTC-iOS"; sourceTree = SOURCE_ROOT; };
+		BAC494872A5628FB0030E615 /* Swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Swift; path = "WebRTC-iOS/signaling/Swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +98,11 @@
 		BAC1DA372A4F1D6C000FD29D /* TheGolfStream */ = {
 			isa = PBXGroup;
 			children = (
+				BAC494852A5628CD0030E615 /* WebRTC-iOS */,
 				BAC1DA382A4F1D6C000FD29D /* TheGolfStreamApp.swift */,
 				BAC1DA3A2A4F1D6C000FD29D /* ContentView.swift */,
 				BAC1DA3C2A4F1D6E000FD29D /* Assets.xcassets */,
+				BAC494872A5628FB0030E615 /* Swift */,
 				BAC1DA3E2A4F1D6E000FD29D /* Preview Content */,
 			);
 			path = TheGolfStream;
@@ -231,7 +237,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAC494862A5628CE0030E615 /* WebRTC-iOS in Resources */,
 				BAC1DA402A4F1D6E000FD29D /* Preview Assets.xcassets in Resources */,
+				BAC494882A5628FB0030E615 /* Swift in Resources */,
 				BAC1DA3D2A4F1D6E000FD29D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
